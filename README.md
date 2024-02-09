@@ -26,7 +26,5 @@ Overall architecture is designed below
 Reporting used is monocart.
 
 
-![
-    
-](<Screenshot 2024-02-09 at 9.21.44 PM-1.png>)
+![alt text](<Screenshot 2024-02-09 at 9.21.44 PM-1.png>)
 
