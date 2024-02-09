@@ -1,0 +1,1198 @@
+{
+    "name": "My Test Report",
+    "date": 1707210589220,
+    "dateH": "2/6/2024, 2:39:49 PM",
+    "duration": 4215,
+    "durationH": "4.2s",
+    "cwd": "/Users/aryamonika/Downloads/PlaywrightAutomation-main",
+    "outputFile": "./results/2024-02-06T09:09:49.162Z/index.html",
+    "outputDir": "./results/2024-02-06T09:09:49.162Z",
+    "metadata": {},
+    "system": {
+        "cpu": {
+            "color": "#117DBB",
+            "count": 8,
+            "model": "Apple M2",
+            "speed": 24
+        },
+        "mem": {
+            "color": "#8B12AE",
+            "total": 8589934592
+        },
+        "arch": "arm64",
+        "platform": "darwin",
+        "release": "21.6.0",
+        "type": "Darwin",
+        "version": "Darwin Kernel Version 21.6.0: Sat Jun 18 17:07:28 PDT 2022; root:xnu-8020.140.41~1/RELEASE_ARM64_T8110",
+        "uptime": 243768,
+        "hostname": "Ranjanbrokernetworkapps-MacBook-Pro.local",
+        "pid": 67179,
+        "node": "18.15.0",
+        "v8": "10.2.154.26-node.25",
+        "timestampStart": 1707210589220,
+        "ticks": [
+            {
+                "cpu": {
+                    "percent": 42.8
+                },
+                "mem": {
+                    "free": 100057088
+                },
+                "timestamp": 1707210591223
+            },
+            {
+                "cpu": {
+                    "percent": 4.88
+                },
+                "mem": {
+                    "free": 542195712
+                },
+                "timestamp": 1707210593228
+            },
+            {
+                "cpu": {
+                    "percent": 2.62
+                },
+                "mem": {
+                    "free": 542507008
+                },
+                "timestamp": 1707210593431
+            }
+        ],
+        "workers": 4,
+        "jobs": [
+            {
+                "caseId": "0b9dfa57b355a6883a7c",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1707210590514,
+                "duration": 687
+            },
+            {
+                "caseId": "3d732270cd6b0719a6c3",
+                "parallelIndex": 1,
+                "workerIndex": 1,
+                "timestamp": 1707210590514,
+                "duration": 1439
+            },
+            {
+                "caseId": "9db6c185b69d36e98635",
+                "parallelIndex": -1,
+                "workerIndex": -1,
+                "timestamp": 1707210590219,
+                "duration": 0
+            },
+            {
+                "caseId": "9b65401c30e447a8e16b",
+                "parallelIndex": 2,
+                "workerIndex": 2,
+                "timestamp": 1707210591094,
+                "duration": 322
+            },
+            {
+                "caseId": "7a83d23cc931d128146c",
+                "parallelIndex": 3,
+                "workerIndex": 3,
+                "timestamp": 1707210591093,
+                "duration": 326
+            },
+            {
+                "caseId": "0d5c861df2b47d83031a",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1707210591793,
+                "duration": 614
+            },
+            {
+                "caseId": "184cdc9ee36244d2c2e6",
+                "parallelIndex": 2,
+                "workerIndex": 2,
+                "timestamp": 1707210591417,
+                "duration": 983
+            },
+            {
+                "caseId": "4dd9197df36b1c0ee1e1",
+                "parallelIndex": 3,
+                "workerIndex": 3,
+                "timestamp": 1707210591420,
+                "duration": 988
+            }
+        ],
+        "cwd": "/Users/aryamonika/Downloads/PlaywrightAutomation-main",
+        "configFile": "playwright.config.ts",
+        "playwright": "1.33.0",
+        "monocart": "1.7.4",
+        "testDir": "",
+        "outputFile": "results/2024-02-06T09:09:49.162Z/index.html",
+        "outputDir": "results/2024-02-06T09:09:49.162Z",
+        "timestampEnd": 1707210593435
+    },
+    "artifacts": [],
+    "trends": [],
+    "columns": [
+        {
+            "id": "caseType",
+            "name": "",
+            "width": 36,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconCaseType",
+            "detailed": false
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "searchable": true,
+            "width": 350,
+            "maxWidth": 1230,
+            "detailed": false
+        },
+        {
+            "id": "type",
+            "name": "Type",
+            "width": 50,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconType",
+            "detailed": false
+        },
+        {
+            "id": "duration",
+            "name": "Duration",
+            "align": "right",
+            "sortAsc": false,
+            "formatter": "duration",
+            "detailed": false
+        },
+        {
+            "id": "errors",
+            "name": "Errors",
+            "width": 60,
+            "align": "center",
+            "comparer": "errors",
+            "formatter": "errors",
+            "detailed": false
+        },
+        {
+            "id": "logs",
+            "name": "Logs",
+            "width": 60,
+            "align": "center",
+            "comparer": "logs",
+            "formatter": "logs",
+            "detailed": false
+        },
+        {
+            "id": "annotations",
+            "name": "Annotations",
+            "width": 100,
+            "markdown": true,
+            "searchable": true,
+            "comparer": "annotations",
+            "formatter": "annotations",
+            "detailed": false
+        },
+        {
+            "id": "attachments",
+            "name": "Attachments",
+            "width": 100,
+            "align": "center",
+            "formatter": "attachments",
+            "detailed": false
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "expectedStatus",
+            "name": "Expected",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "outcome",
+            "name": "Outcome",
+            "align": "center",
+            "width": 85,
+            "detailed": false
+        },
+        {
+            "id": "retry",
+            "name": "Retry",
+            "align": "center",
+            "width": 50,
+            "detailed": false
+        },
+        {
+            "id": "location",
+            "name": "Location",
+            "classMap": "mcr-location",
+            "width": 200,
+            "maxWidth": 1981,
+            "detailed": false
+        }
+    ],
+    "rows": [
+        {
+            "id": "jo1uyebipxfbtu4vzoab",
+            "title": "api",
+            "type": "suite",
+            "suiteType": "project",
+            "caseNum": 8,
+            "subs": [
+                {
+                    "id": "ee337a5604a249bfed13",
+                    "title": "tests/api/retrieve-recommendation.spec.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 3,
+                    "subs": [
+                        {
+                            "id": "ee337a5604a249bfed13",
+                            "title": "GraphQL Operations",
+                            "type": "suite",
+                            "suiteType": "describe",
+                            "caseNum": 3,
+                            "subs": [
+                                {
+                                    "id": "0b9dfa57b355a6883a7c",
+                                    "title": "Get Site Statistics",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/retrieve-recommendation.spec.ts:17:7",
+                                    "timestamps": [
+                                        1707210590514,
+                                        1707210591201
+                                    ],
+                                    "duration": 687,
+                                    "annotations": [
+                                        {
+                                            "type": "GraphQL Query",
+                                            "description": "query getSiteStatistics{\n        SiteStatistics {\n          anime {\n            edges {\n              node {\n                date\n                count\n                change\n              }\n            }\n            pageInfo {\n              total\n              currentPage\n            }\n          }\n        }\n      }\n      "
+                                        },
+                                        {
+                                            "type": "Status Code",
+                                            "description": "200"
+                                        },
+                                        {
+                                            "type": "GraphQL Response",
+                                            "description": "{\"data\":{\"SiteStatistics\":{\"anime\":{\"edges\":[{\"node\":{\"date\":1562421602,\"count\":12992,\"change\":0}},{\"node\":{\"date\":1562508002,\"count\":12992,\"change\":0}},{\"node\":{\"date\":1562594402,\"count\":12997,\"change\":5}},{\"node\":{\"date\":1562680802,\"count\":12998,\"change\":1}},{\"node\":{\"date\":1562767202,\"count\":13001,\"change\":3}},{\"node\":{\"date\":1562853602,\"count\":13003,\"change\":2}},{\"node\":{\"date\":1562940002,\"count\":13004,\"change\":1}},{\"node\":{\"date\":1563026402,\"count\":13009,\"change\":5}},{\"node\":{\"date\":1563112802,\"count\":13011,\"change\":2}},{\"node\":{\"date\":1563199202,\"count\":13015,\"change\":4}},{\"node\":{\"date\":1563285602,\"count\":13021,\"change\":6}},{\"node\":{\"date\":1563372002,\"count\":13021,\"change\":0}},{\"node\":{\"date\":1563458402,\"count\":13024,\"change\":3}},{\"node\":{\"date\":1563544802,\"count\":13031,\"change\":7}},{\"node\":{\"date\":1563631202,\"count\":13035,\"change\":4}},{\"node\":{\"date\":1563717602,\"count\":13050,\"change\":15}},{\"node\":{\"date\":1563804002,\"count\":13050,\"change\":0}},{\"node\":{\"date\":1563890402,\"count\":13053,\"change\":3}},{\"node\":{\"date\":1563976802,\"count\":13061,\"change\":8}},{\"node\":{\"date\":1564063202,\"count\":13062,\"change\":1}},{\"node\":{\"date\":1564149602,\"count\":13062,\"change\":0}},{\"node\":{\"date\":1564236002,\"count\":13065,\"change\":3}},{\"node\":{\"date\":1564322402,\"count\":13068,\"change\":3}},{\"node\":{\"date\":1564408802,\"count\":13068,\"change\":0}},{\"node\":{\"date\":1564495202,\"count\":13068,\"change\":0}}],\"pageInfo\":{\"total\":500,\"currentPage\":1}}}}}"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 6,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "2juwa65b5p0l1zsqjsdk",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 40,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "nhh9gqv42frqh9w94i41",
+                                            "title": "apiRequestContext.post(/)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 637,
+                                            "location": "utils/grappql-utils.ts:29:44"
+                                        },
+                                        {
+                                            "id": "aog8kot08vwj6uyg06rt",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 0,
+                                            "location": "utils/grappql-utils.ts:48:52"
+                                        },
+                                        {
+                                            "id": "lbgss2oh0cek8x6szxox",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 1,
+                                            "location": "tests/api/retrieve-recommendation.spec.ts:25:37"
+                                        },
+                                        {
+                                            "id": "l7laewgfx16vly9kz5f7",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "dbkpe3iejnrze11pgm7s",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3d732270cd6b0719a6c3",
+                                    "title": "Get Media Details by Id for Anime",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/retrieve-recommendation.spec.ts:28:7",
+                                    "timestamps": [
+                                        1707210590514,
+                                        1707210591953
+                                    ],
+                                    "duration": 1439,
+                                    "annotations": [
+                                        {
+                                            "type": "GraphQL Query",
+                                            "description": "query getMediaById($id: Int) {\n    Media(id:$id, type:ANIME) {\n      title {\n        romaji\n        english\n        native\n        userPreferred\n      }\n      type\n      description\n    }\n  }"
+                                        },
+                                        {
+                                            "type": "Status Code",
+                                            "description": "200"
+                                        },
+                                        {
+                                            "type": "GraphQL Response",
+                                            "description": "{\"data\":{\"Media\":{\"title\":{\"romaji\":\"Teekyuu\",\"english\":\"Teekyuu\",\"native\":\"てーきゅう\",\"userPreferred\":\"Teekyuu\"},\"type\":\"ANIME\",\"description\":\"Teekyuu is based on a sports comedy manga of the same name featuring four high school girls who belong to a tennis club. \"}}}"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 10,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "q98rsgwvps92q0ybkuje",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 41,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "a5mpbbv31ndjgem5vpok",
+                                            "title": "apiRequestContext.post(/)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 1386,
+                                            "location": "utils/grappql-utils.ts:29:44"
+                                        },
+                                        {
+                                            "id": "3spb8aelsown3q90pctr",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 0,
+                                            "location": "utils/grappql-utils.ts:48:52"
+                                        },
+                                        {
+                                            "id": "bfby4vq6mcu2d5und9qd",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/retrieve-recommendation.spec.ts:39:37"
+                                        },
+                                        {
+                                            "id": "6f11qigwmfja2ve88ivc",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 0,
+                                            "location": "tests/api/retrieve-recommendation.spec.ts:40:47"
+                                        },
+                                        {
+                                            "id": "r6k09f90iy2durogjrl8",
+                                            "title": "expect.soft.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/retrieve-recommendation.spec.ts:41:50"
+                                        },
+                                        {
+                                            "id": "uri4n9r2kof056dwkue7",
+                                            "title": "expect.soft.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/retrieve-recommendation.spec.ts:42:56"
+                                        },
+                                        {
+                                            "id": "8sn4he7c7rvmmphlhfvx",
+                                            "title": "expect.soft.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/retrieve-recommendation.spec.ts:43:41"
+                                        },
+                                        {
+                                            "id": "i0twswamrcf6wz9k61f0",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 2,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "lxrcdmogi6aqwnsts9x1",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "9db6c185b69d36e98635",
+                                    "title": "Save  Media List Entry",
+                                    "type": "case",
+                                    "caseType": "skipped",
+                                    "ok": true,
+                                    "outcome": "skipped",
+                                    "expectedStatus": "skipped",
+                                    "location": "tests/api/retrieve-recommendation.spec.ts:47:8",
+                                    "timestamps": [
+                                        1707210590219,
+                                        1707210590219
+                                    ],
+                                    "duration": 0,
+                                    "annotations": [
+                                        {
+                                            "type": "fixme"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "skipped",
+                                    "stepNum": 0,
+                                    "stepFailed": 0,
+                                    "stepSubs": false
+                                }
+                            ],
+                            "location": "tests/api/retrieve-recommendation.spec.ts:13:6"
+                        }
+                    ],
+                    "location": "tests/api/retrieve-recommendation.spec.ts:0:0"
+                },
+                {
+                    "id": "475d3afc1dfeb7586876",
+                    "title": "tests/api/user.spec.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 5,
+                    "subs": [
+                        {
+                            "id": "475d3afc1dfeb7586876",
+                            "title": "API Operations",
+                            "type": "suite",
+                            "suiteType": "describe",
+                            "caseNum": 5,
+                            "subs": [
+                                {
+                                    "id": "9b65401c30e447a8e16b",
+                                    "title": "Get a single user ",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/user.spec.ts:28:7",
+                                    "timestamps": [
+                                        1707210591094,
+                                        1707210591416
+                                    ],
+                                    "duration": 322,
+                                    "annotations": [
+                                        {
+                                            "type": "Status Code",
+                                            "description": "200"
+                                        },
+                                        {
+                                            "type": "API Response",
+                                            "description": "{\"data\":{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://reqres.in/img/faces/2-image.jpg\"},\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 12,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "u48r2yohlkhzgl4wr3tf",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 15,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "xteoilztqjygqojy3pjx",
+                                            "title": "apiRequestContext.get(/api/users/2)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 299,
+                                            "location": "utils/get-utils.ts:17:47"
+                                        },
+                                        {
+                                            "id": "kckexr8feibwj1y9zh9b",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 0,
+                                            "location": "utils/get-utils.ts:34:52"
+                                        },
+                                        {
+                                            "id": "vu3smk1kzyp5cnd9ncel",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:35:41"
+                                        },
+                                        {
+                                            "id": "q1c3eqxpysc6dxzu5l3w",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:37:37"
+                                        },
+                                        {
+                                            "id": "kqy22i3wfmb2putt5qi5",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:38:35"
+                                        },
+                                        {
+                                            "id": "0qklfu7n3ty7yo2ojbeo",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:39:32"
+                                        },
+                                        {
+                                            "id": "vp0kiv8h0rkg4xa81ge1",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:40:40"
+                                        },
+                                        {
+                                            "id": "bepnok0r1bmvyiomobys",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:41:39"
+                                        },
+                                        {
+                                            "id": "1wxtt9zit6heaui6t6vd",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:42:36"
+                                        },
+                                        {
+                                            "id": "9u1gbr35qrgjpd78egsk",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "twgwnp2jndnt4wpl9dxl",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "7a83d23cc931d128146c",
+                                    "title": "Get users within a page ",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/user.spec.ts:47:7",
+                                    "timestamps": [
+                                        1707210591093,
+                                        1707210591419
+                                    ],
+                                    "duration": 326,
+                                    "annotations": [
+                                        {
+                                            "type": "Status Code",
+                                            "description": "200"
+                                        },
+                                        {
+                                            "type": "API Response",
+                                            "description": "{\"page\":2,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":7,\"email\":\"michael.lawson@reqres.in\",\"first_name\":\"Michael\",\"last_name\":\"Lawson\",\"avatar\":\"https://reqres.in/img/faces/7-image.jpg\"},{\"id\":8,\"email\":\"lindsay.ferguson@reqres.in\",\"first_name\":\"Lindsay\",\"last_name\":\"Ferguson\",\"avatar\":\"https://reqres.in/img/faces/8-image.jpg\"},{\"id\":9,\"email\":\"tobias.funke@reqres.in\",\"first_name\":\"Tobias\",\"last_name\":\"Funke\",\"avatar\":\"https://reqres.in/img/faces/9-image.jpg\"},{\"id\":10,\"email\":\"byron.fields@reqres.in\",\"first_name\":\"Byron\",\"last_name\":\"Fields\",\"avatar\":\"https://reqres.in/img/faces/10-image.jpg\"},{\"id\":11,\"email\":\"george.edwards@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Edwards\",\"avatar\":\"https://reqres.in/img/faces/11-image.jpg\"},{\"id\":12,\"email\":\"rachel.howell@reqres.in\",\"first_name\":\"Rachel\",\"last_name\":\"Howell\",\"avatar\":\"https://reqres.in/img/faces/12-image.jpg\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 12,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "a8s505c7qs24uvh46nwp",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 16,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "njwywz9dfssapkgmuouf",
+                                            "title": "apiRequestContext.get(/api/users)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 300,
+                                            "location": "utils/get-utils.ts:17:47"
+                                        },
+                                        {
+                                            "id": "308u6286gfr78a27ffy1",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 0,
+                                            "location": "utils/get-utils.ts:34:52"
+                                        },
+                                        {
+                                            "id": "4rxvn94o3c5d28htgdvg",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 1,
+                                            "location": "tests/api/user.spec.ts:56:41"
+                                        },
+                                        {
+                                            "id": "7hkf04jnxy8w3cq5nfmn",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:58:37"
+                                        },
+                                        {
+                                            "id": "tl7ye4zyxuh8ra1cv7d9",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:59:29"
+                                        },
+                                        {
+                                            "id": "99wpgurow33f7al2o1u5",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:60:33"
+                                        },
+                                        {
+                                            "id": "3dbf0ltkft4ba63fj8xg",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:61:30"
+                                        },
+                                        {
+                                            "id": "ji6j6yx99u84j0ksrc0s",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 1,
+                                            "location": "tests/api/user.spec.ts:62:36"
+                                        },
+                                        {
+                                            "id": "yo73t4ka5jmbtvszut9q",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:63:36"
+                                        },
+                                        {
+                                            "id": "oj13q59u86cnyowo1puz",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "3v6eywh71vx8cc6gnn2o",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "0d5c861df2b47d83031a",
+                                    "title": "Create a new user ",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/user.spec.ts:66:7",
+                                    "timestamps": [
+                                        1707210591793,
+                                        1707210592407
+                                    ],
+                                    "duration": 614,
+                                    "annotations": [
+                                        {
+                                            "type": "Request Body",
+                                            "description": {
+                                                "name": "Dr. Arthur Gislason",
+                                                "job": "Representative"
+                                            }
+                                        },
+                                        {
+                                            "type": "Status Code",
+                                            "description": "201"
+                                        },
+                                        {
+                                            "type": "API Response",
+                                            "description": "{\"name\":\"Dr. Arthur Gislason\",\"job\":\"Representative\",\"id\":\"808\",\"createdAt\":\"2024-02-06T09:09:52.274Z\"}"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 9,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "d9n3uqlm8jbgh3hep6ie",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 3,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "jnp9l3as42ua0py8wdis",
+                                            "title": "apiRequestContext.post(/api/users)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 597,
+                                            "location": "utils/post-utils.ts:46:47"
+                                        },
+                                        {
+                                            "id": "lf9pb1298p832bii5uvg",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 1,
+                                            "location": "utils/post-utils.ts:56:52"
+                                        },
+                                        {
+                                            "id": "750jlf9697rhjydj3zxc",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 1,
+                                            "location": "tests/api/user.spec.ts:75:41"
+                                        },
+                                        {
+                                            "id": "n1yh5hkbcwxxjosb8rho",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:77:37"
+                                        },
+                                        {
+                                            "id": "7uc8q8oqtq0h1nejes0n",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:78:29"
+                                        },
+                                        {
+                                            "id": "su20oa935g9mumvx99l9",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 1,
+                                            "location": "tests/api/user.spec.ts:79:28"
+                                        },
+                                        {
+                                            "id": "2s8rr4tq8mdedbrbdout",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 2,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "w3eg8tiskwy0lzh8lb73",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "184cdc9ee36244d2c2e6",
+                                    "title": "Delete a  user ",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/user.spec.ts:82:7",
+                                    "timestamps": [
+                                        1707210591417,
+                                        1707210592400
+                                    ],
+                                    "duration": 983,
+                                    "annotations": [
+                                        {
+                                            "type": "Status Code",
+                                            "description": "204"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 5,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "w1r2tb36xoypi5jjdady",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "kryi2r8mhcraa63rjxzg",
+                                            "title": "apiRequestContext.delete(/api/users/2)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 974,
+                                            "location": "utils/delete-utils.ts:46:53"
+                                        },
+                                        {
+                                            "id": "gbw430qjyn0lovqhfqmr",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:93:37"
+                                        },
+                                        {
+                                            "id": "txdtz3fjkj7s32xod6wc",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 4,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "co9lotsi58jg0m0vj9cc",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "4dd9197df36b1c0ee1e1",
+                                    "title": "Update a  user",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/api/user.spec.ts:96:7",
+                                    "timestamps": [
+                                        1707210591420,
+                                        1707210592408
+                                    ],
+                                    "duration": 988,
+                                    "annotations": [
+                                        {
+                                            "type": "Request Body",
+                                            "description": {
+                                                "name": "Beatrice Schmidt",
+                                                "job": "Representative"
+                                            }
+                                        },
+                                        {
+                                            "type": "Status Code",
+                                            "description": "200"
+                                        },
+                                        {
+                                            "type": "API Response",
+                                            "description": "{\"name\":\"Beatrice Schmidt\",\"job\":\"Representative\",\"updatedAt\":\"2024-02-06T09:09:52.273Z\"}"
+                                        }
+                                    ],
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 9,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "agvyams09g3s5yjie5i9",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 1,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "m3x11890t6fcgwnmpyiu",
+                                            "title": "apiRequestContext.put(/api/users/2)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 973,
+                                            "location": "utils/put-utils.ts:46:47"
+                                        },
+                                        {
+                                            "id": "u0fdembz9fjgfrgniuli",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 2,
+                                            "location": "utils/put-utils.ts:56:52"
+                                        },
+                                        {
+                                            "id": "tx74ywjs0kv5myl608sy",
+                                            "title": "apiResponse.json",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 1,
+                                            "location": "tests/api/user.spec.ts:105:41"
+                                        },
+                                        {
+                                            "id": "v8hck8i3dzsqoeic27iz",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:107:37"
+                                        },
+                                        {
+                                            "id": "7omodz5u9vszgn4enf5j",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:108:29"
+                                        },
+                                        {
+                                            "id": "u0ldgqkbgo7iusgz8c7y",
+                                            "title": "expect.toBe",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 0,
+                                            "location": "tests/api/user.spec.ts:109:28"
+                                        },
+                                        {
+                                            "id": "1jvtri1gpj019rtoicoz",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 3,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "0litmvi1es5wq0kyyp89",
+                                                    "title": "apiRequestContext.dispose",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "location": "tests/api/user.spec.ts:24:6"
+                        }
+                    ],
+                    "location": "tests/api/user.spec.ts:0:0"
+                }
+            ]
+        }
+    ],
+    "formatters": {},
+    "suiteTypes": [
+        "project",
+        "file",
+        "describe",
+        "shard"
+    ],
+    "caseTypes": [
+        "passed",
+        "flaky",
+        "skipped",
+        "failed"
+    ],
+    "traceViewerUrl": "https://trace.playwright.dev/?trace={traceUrl}",
+    "tags": {},
+    "summary": {
+        "tests": {
+            "name": "Tests",
+            "value": 8,
+            "nav": true,
+            "id": "tests"
+        },
+        "passed": {
+            "name": "Passed",
+            "value": 7,
+            "color": "green",
+            "nav": true,
+            "id": "passed",
+            "percent": "87.5%"
+        },
+        "flaky": {
+            "name": "Flaky",
+            "value": 0,
+            "color": "orange",
+            "nav": true,
+            "id": "flaky",
+            "percent": "0.0%"
+        },
+        "skipped": {
+            "name": "Skipped",
+            "value": 1,
+            "color": "gray",
+            "nav": true,
+            "id": "skipped",
+            "percent": "12.5%"
+        },
+        "failed": {
+            "name": "Failed",
+            "value": 0,
+            "color": "#d00",
+            "nav": true,
+            "id": "failed",
+            "percent": "0.0%"
+        },
+        "steps": {
+            "name": "Steps",
+            "value": 63,
+            "id": "steps"
+        },
+        "suites": {
+            "name": "Suites",
+            "value": 2,
+            "id": "suites"
+        },
+        "projects": {
+            "name": "Projects",
+            "description": "Suite type is project",
+            "value": 1,
+            "id": "projects"
+        },
+        "files": {
+            "name": "Files",
+            "description": "Suite type is file",
+            "value": 2,
+            "id": "files"
+        },
+        "describes": {
+            "name": "Describes",
+            "description": "Suite type is describe",
+            "value": 2,
+            "id": "describes"
+        },
+        "shards": {
+            "name": "Shards",
+            "description": "Suite type is shard (only in shading mode)",
+            "value": 0,
+            "id": "shards"
+        },
+        "retries": {
+            "name": "Retries",
+            "value": 0,
+            "id": "retries"
+        },
+        "errors": {
+            "name": "Errors",
+            "value": 0,
+            "id": "errors"
+        },
+        "logs": {
+            "name": "Logs",
+            "value": 0,
+            "id": "logs"
+        },
+        "attachments": {
+            "name": "Attachments",
+            "value": 0,
+            "id": "attachments"
+        }
+    },
+    "pieChart": {
+        "ns": "mcr-pie",
+        "width": 360,
+        "height": 150,
+        "margin": 10,
+        "svg": "<svg viewBox=\"0 0 360 150\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"mcr-pie-path-passed\"><path d=\"M75,75 L75,10 A65,65 0 1 1 29,29 z\" fill=\"green\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"3.8,9.2\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-flaky\"><path d=\"\" fill=\"orange\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"-7.1,-7.1\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-skipped\"><path d=\"M75,75 L29,29 A65,65 0 0 1 75,10 z\" fill=\"gray\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"-3.8,-9.2\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-failed\"><path d=\"\" fill=\"#d00\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g transform=\"translate(160 10)\"><g class=\"mcr-pie-legend-passed\" transform=\"translate(0 0)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"green\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Passed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">7</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">87.5%</text></g><g class=\"mcr-pie-legend-flaky\" transform=\"translate(0 32)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"orange\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Flaky</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-skipped\" transform=\"translate(0 64)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"gray\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Skipped</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">1</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">12.5%</text></g><g class=\"mcr-pie-legend-failed\" transform=\"translate(0 96)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"#d00\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Failed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g></g></svg>"
+    }
+}

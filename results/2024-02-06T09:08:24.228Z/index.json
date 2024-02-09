@@ -1,0 +1,769 @@
+{
+    "name": "My Test Report",
+    "date": 1707210504286,
+    "dateH": "2/6/2024, 2:38:24 PM",
+    "duration": 7828,
+    "durationH": "7.8s",
+    "cwd": "/Users/aryamonika/Downloads/PlaywrightAutomation-main",
+    "outputFile": "./results/2024-02-06T09:08:24.228Z/index.html",
+    "outputDir": "./results/2024-02-06T09:08:24.228Z",
+    "metadata": {},
+    "system": {
+        "cpu": {
+            "color": "#117DBB",
+            "count": 8,
+            "model": "Apple M2",
+            "speed": 24
+        },
+        "mem": {
+            "color": "#8B12AE",
+            "total": 8589934592
+        },
+        "arch": "arm64",
+        "platform": "darwin",
+        "release": "21.6.0",
+        "type": "Darwin",
+        "version": "Darwin Kernel Version 21.6.0: Sat Jun 18 17:07:28 PDT 2022; root:xnu-8020.140.41~1/RELEASE_ARM64_T8110",
+        "uptime": 243683,
+        "hostname": "Ranjanbrokernetworkapps-MacBook-Pro.local",
+        "pid": 67045,
+        "node": "18.15.0",
+        "v8": "10.2.154.26-node.25",
+        "timestampStart": 1707210504286,
+        "ticks": [
+            {
+                "cpu": {
+                    "percent": 20.35
+                },
+                "mem": {
+                    "free": 135626752
+                },
+                "timestamp": 1707210506289
+            },
+            {
+                "cpu": {
+                    "percent": 36.98
+                },
+                "mem": {
+                    "free": 107249664
+                },
+                "timestamp": 1707210508293
+            },
+            {
+                "cpu": {
+                    "percent": 36.89
+                },
+                "mem": {
+                    "free": 176504832
+                },
+                "timestamp": 1707210510293
+            },
+            {
+                "cpu": {
+                    "percent": 21.82
+                },
+                "mem": {
+                    "free": 909230080
+                },
+                "timestamp": 1707210512111
+            }
+        ],
+        "workers": 2,
+        "jobs": [
+            {
+                "caseId": "ea857cf695923765e60b",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1707210505392,
+                "duration": 1772
+            },
+            {
+                "caseId": "e65f74a95c02a57e48f2",
+                "parallelIndex": 0,
+                "workerIndex": 1,
+                "timestamp": 1707210507420,
+                "duration": 3546
+            },
+            {
+                "caseId": "bc705f2372ea8051ffc8",
+                "parallelIndex": 1,
+                "workerIndex": 2,
+                "timestamp": 1707210508010,
+                "duration": 2661
+            }
+        ],
+        "cwd": "/Users/aryamonika/Downloads/PlaywrightAutomation-main",
+        "configFile": "playwright.config.ts",
+        "playwright": "1.33.0",
+        "monocart": "1.7.4",
+        "testDir": "",
+        "outputFile": "results/2024-02-06T09:08:24.228Z/index.html",
+        "outputDir": "results/2024-02-06T09:08:24.228Z",
+        "timestampEnd": 1707210512114
+    },
+    "artifacts": [],
+    "trends": [],
+    "columns": [
+        {
+            "id": "caseType",
+            "name": "",
+            "width": 36,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconCaseType",
+            "detailed": false
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "searchable": true,
+            "width": 350,
+            "maxWidth": 1230,
+            "detailed": false
+        },
+        {
+            "id": "type",
+            "name": "Type",
+            "width": 50,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconType",
+            "detailed": false
+        },
+        {
+            "id": "duration",
+            "name": "Duration",
+            "align": "right",
+            "sortAsc": false,
+            "formatter": "duration",
+            "detailed": false
+        },
+        {
+            "id": "errors",
+            "name": "Errors",
+            "width": 60,
+            "align": "center",
+            "comparer": "errors",
+            "formatter": "errors",
+            "detailed": false
+        },
+        {
+            "id": "logs",
+            "name": "Logs",
+            "width": 60,
+            "align": "center",
+            "comparer": "logs",
+            "formatter": "logs",
+            "detailed": false
+        },
+        {
+            "id": "annotations",
+            "name": "Annotations",
+            "width": 100,
+            "markdown": true,
+            "searchable": true,
+            "comparer": "annotations",
+            "formatter": "annotations",
+            "detailed": false
+        },
+        {
+            "id": "attachments",
+            "name": "Attachments",
+            "width": 100,
+            "align": "center",
+            "formatter": "attachments",
+            "detailed": false
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "expectedStatus",
+            "name": "Expected",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "outcome",
+            "name": "Outcome",
+            "align": "center",
+            "width": 85,
+            "detailed": false
+        },
+        {
+            "id": "retry",
+            "name": "Retry",
+            "align": "center",
+            "width": 50,
+            "detailed": false
+        },
+        {
+            "id": "location",
+            "name": "Location",
+            "classMap": "mcr-location",
+            "width": 200,
+            "maxWidth": 1981,
+            "detailed": false
+        }
+    ],
+    "rows": [
+        {
+            "id": "jin6tvrgi6opx4s8786r",
+            "title": "login",
+            "type": "suite",
+            "suiteType": "project",
+            "caseNum": 1,
+            "subs": [
+                {
+                    "id": "308f7d0e05acf652cf55",
+                    "title": "setup/login.setup.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 1,
+                    "subs": [
+                        {
+                            "id": "ea857cf695923765e60b",
+                            "title": "Save  Storage state",
+                            "type": "case",
+                            "caseType": "passed",
+                            "ok": true,
+                            "outcome": "expected",
+                            "expectedStatus": "passed",
+                            "location": "setup/login.setup.ts:6:6",
+                            "timestamps": [
+                                1707210505392,
+                                1707210507164
+                            ],
+                            "duration": 1772,
+                            "timeout": 30000,
+                            "retry": 0,
+                            "status": "passed",
+                            "stepNum": 9,
+                            "stepFailed": 0,
+                            "stepSubs": true,
+                            "subs": [
+                                {
+                                    "id": "6nkb8sny1j5ioto4qn62",
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 537,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "q6xy1uuxbicym3ttkeoh",
+                                            "title": "browserContext.newPage",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 182,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "imphivjk76cpiysj860i",
+                                    "title": "page.goto(/)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 910,
+                                    "location": "setup/login.setup.ts:7:14"
+                                },
+                                {
+                                    "id": "4z8nm9xv8lk0sf80q8xr",
+                                    "title": "locator.getByTestId('username').fill",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 53,
+                                    "location": "setup/login.setup.ts:8:38"
+                                },
+                                {
+                                    "id": "19fujo85rj71e256ajzy",
+                                    "title": "locator.getByTestId('password').fill",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 20,
+                                    "location": "setup/login.setup.ts:9:38"
+                                },
+                                {
+                                    "id": "z2qk5g1o55yne059k7kh",
+                                    "title": "locator.getByTestId('login-button').click",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 71,
+                                    "location": "setup/login.setup.ts:10:42"
+                                },
+                                {
+                                    "id": "brbunkj79t7md13h6o6p",
+                                    "title": "browserContext.storageState",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 69,
+                                    "location": "setup/login.setup.ts:11:24"
+                                },
+                                {
+                                    "id": "wmezb9ukfapzb0ubs1gw",
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 107,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "4sfflphe7j2hkfj9sepi",
+                                            "title": "browserContext.close",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 4,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "location": "setup/login.setup.ts:0:0"
+                }
+            ]
+        },
+        {
+            "id": "zvzj633e3szremjznry0",
+            "title": "chromium",
+            "type": "suite",
+            "suiteType": "project",
+            "caseNum": 2,
+            "subs": [
+                {
+                    "id": "41d3fd2474a19feb00a1",
+                    "title": "tests/web/login.spec.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 1,
+                    "subs": [
+                        {
+                            "id": "41d3fd2474a19feb00a1",
+                            "title": "Snapshot tests for Swag Labs",
+                            "type": "suite",
+                            "suiteType": "describe",
+                            "caseNum": 1,
+                            "subs": [
+                                {
+                                    "id": "e65f74a95c02a57e48f2",
+                                    "title": "Visual Test for Swag Store @visual",
+                                    "type": "case",
+                                    "caseType": "passed",
+                                    "ok": true,
+                                    "outcome": "expected",
+                                    "expectedStatus": "passed",
+                                    "location": "tests/web/login.spec.ts:4:7",
+                                    "timestamps": [
+                                        1707210507420,
+                                        1707210510966
+                                    ],
+                                    "duration": 3546,
+                                    "timeout": 30000,
+                                    "retry": 0,
+                                    "status": "passed",
+                                    "stepNum": 7,
+                                    "stepFailed": 0,
+                                    "stepSubs": true,
+                                    "subs": [
+                                        {
+                                            "id": "1nwfj2kn2esm7aubei05",
+                                            "title": "Before Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 3207,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "bzfti78qtnfimiz0wkkl",
+                                                    "title": "browserContext.newPage",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 339,
+                                                    "location": ""
+                                                },
+                                                {
+                                                    "id": "yxt0tqmwvfn263is2nf5",
+                                                    "title": "page.goto(/inventory.html)",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1203,
+                                                    "location": "fixtures/order-fixture.ts:18:16"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "j778n9lo37svcnums0lw",
+                                            "title": "page.evaluate",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 6,
+                                            "location": "utils/visual-utils.ts:12:14"
+                                        },
+                                        {
+                                            "id": "bzteifzcj0im7gl3wbjo",
+                                            "title": "expect.soft.toHaveScreenshot(swag-store.png)",
+                                            "type": "step",
+                                            "stepType": "expect",
+                                            "duration": 248,
+                                            "location": "utils/visual-utils.ts:19:27"
+                                        },
+                                        {
+                                            "id": "gdn2uebnif566qle3ec6",
+                                            "title": "After Hooks",
+                                            "type": "step",
+                                            "stepType": "hook",
+                                            "duration": 81,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "6gxdzf15bj4j5d7uub26",
+                                                    "title": "browserContext.close",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 11,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "location": "tests/web/login.spec.ts:3:6"
+                        }
+                    ],
+                    "location": "tests/web/login.spec.ts:0:0"
+                },
+                {
+                    "id": "85d1357294a106dff78a",
+                    "title": "tests/web/order.spec.ts",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 1,
+                    "subs": [
+                        {
+                            "id": "bc705f2372ea8051ffc8",
+                            "title": "Place Order",
+                            "type": "case",
+                            "caseType": "passed",
+                            "ok": true,
+                            "outcome": "expected",
+                            "expectedStatus": "passed",
+                            "location": "tests/web/order.spec.ts:5:5",
+                            "timestamps": [
+                                1707210508010,
+                                1707210510671
+                            ],
+                            "duration": 2661,
+                            "timeout": 30000,
+                            "retry": 0,
+                            "status": "passed",
+                            "stepNum": 21,
+                            "stepFailed": 0,
+                            "stepSubs": true,
+                            "subs": [
+                                {
+                                    "id": "8al1hzaiovnvn6sdd8ki",
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 2301,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "e28qv5vghgtjtm33fwju",
+                                            "title": "browserContext.newPage",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 343,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "ywwvempbqlmb5lmutbx1",
+                                            "title": "page.goto(/inventory.html)",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 881,
+                                            "location": "fixtures/order-fixture.ts:18:16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1w0gt90gk7k7pbcbd52s",
+                                    "title": "locator.click(.inventory_item >> nth=0 >> internal:role=button)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 58,
+                                    "location": "pages/product-page.ts:14:39"
+                                },
+                                {
+                                    "id": "ikr256t97bfov8p2yc12",
+                                    "title": "locator.click(.inventory_item >> nth=1 >> internal:role=button)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 44,
+                                    "location": "pages/product-page.ts:14:39"
+                                },
+                                {
+                                    "id": "ltvjoxypj722pvo7pag0",
+                                    "title": "expect.toHaveText",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 9,
+                                    "location": "tests/web/order.spec.ts:14:46"
+                                },
+                                {
+                                    "id": "s42qgbfyvcaeirzt5wdm",
+                                    "title": "locator.click(#shopping_cart_container)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 24,
+                                    "location": "pages/product-page.ts:17:33"
+                                },
+                                {
+                                    "id": "0e2hkr5awc8b3rmlvohw",
+                                    "title": "locator.innerText(.cart_item >> nth=0 >> .inventory_item_price)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 1,
+                                    "location": "tests/web/order.spec.ts:16:70"
+                                },
+                                {
+                                    "id": "ra9weav5tekp3xo7jx2n",
+                                    "title": "locator.innerText(.cart_item >> nth=1 >> .inventory_item_price)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 2,
+                                    "location": "tests/web/order.spec.ts:17:71"
+                                },
+                                {
+                                    "id": "ku57q2ypcq0cpkotuk55",
+                                    "title": "locator.getByTestId('checkout').click",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 35,
+                                    "location": "pages/cart-page.ts:22:31"
+                                },
+                                {
+                                    "id": "7usr9ar3ko2361qqgxog",
+                                    "title": "locator.getByTestId('firstName').fill",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 9,
+                                    "location": "pages/customer-information-page.ts:14:26"
+                                },
+                                {
+                                    "id": "ucox880u5qc8780o06l0",
+                                    "title": "locator.getByTestId('lastName').fill",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 4,
+                                    "location": "pages/customer-information-page.ts:15:25"
+                                },
+                                {
+                                    "id": "tmbz7gxiaqqkpnv3bxns",
+                                    "title": "locator.getByTestId('postalCode').fill",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 4,
+                                    "location": "pages/customer-information-page.ts:16:27"
+                                },
+                                {
+                                    "id": "a40ikxor58h66w54mdum",
+                                    "title": "locator.getByTestId('continue').click",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 41,
+                                    "location": "pages/customer-information-page.ts:20:31"
+                                },
+                                {
+                                    "id": "tg67qvft17p90y9n1iqm",
+                                    "title": "expect.toHaveText",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 1,
+                                    "location": "tests/web/order.spec.ts:23:60"
+                                },
+                                {
+                                    "id": "49y9crt15apzh15rshxo",
+                                    "title": "expect.toHaveText",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 2,
+                                    "location": "tests/web/order.spec.ts:26:60"
+                                },
+                                {
+                                    "id": "nwkgafw43v9ukyfcizlw",
+                                    "title": "locator.getByTestId('finish').click",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 30,
+                                    "location": "pages/overview-page.ts:21:29"
+                                },
+                                {
+                                    "id": "urw6p2ztaaqtkmmcw6h8",
+                                    "title": "expect.toHaveText",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 2,
+                                    "location": "tests/web/order.spec.ts:30:51"
+                                },
+                                {
+                                    "id": "htf7uq4jdbajwfx8rn40",
+                                    "title": "expect.toHaveText",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 3,
+                                    "location": "tests/web/order.spec.ts:33:55"
+                                },
+                                {
+                                    "id": "bnae3iyd8ueanog2455t",
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 79,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "ln5hrutv5yqvve48a3zs",
+                                            "title": "browserContext.close",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 13,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "location": "tests/web/order.spec.ts:0:0"
+                }
+            ]
+        }
+    ],
+    "formatters": {},
+    "suiteTypes": [
+        "project",
+        "file",
+        "describe",
+        "shard"
+    ],
+    "caseTypes": [
+        "passed",
+        "flaky",
+        "skipped",
+        "failed"
+    ],
+    "traceViewerUrl": "https://trace.playwright.dev/?trace={traceUrl}",
+    "tags": {
+        "visual": {
+            "value": 1
+        }
+    },
+    "summary": {
+        "tests": {
+            "name": "Tests",
+            "value": 3,
+            "nav": true,
+            "id": "tests"
+        },
+        "passed": {
+            "name": "Passed",
+            "value": 3,
+            "color": "green",
+            "nav": true,
+            "id": "passed",
+            "percent": "100.0%"
+        },
+        "flaky": {
+            "name": "Flaky",
+            "value": 0,
+            "color": "orange",
+            "nav": true,
+            "id": "flaky",
+            "percent": "0.0%"
+        },
+        "skipped": {
+            "name": "Skipped",
+            "value": 0,
+            "color": "gray",
+            "nav": true,
+            "id": "skipped",
+            "percent": "0.0%"
+        },
+        "failed": {
+            "name": "Failed",
+            "value": 0,
+            "color": "#d00",
+            "nav": true,
+            "id": "failed",
+            "percent": "0.0%"
+        },
+        "steps": {
+            "name": "Steps",
+            "value": 37,
+            "id": "steps"
+        },
+        "suites": {
+            "name": "Suites",
+            "value": 3,
+            "id": "suites"
+        },
+        "projects": {
+            "name": "Projects",
+            "description": "Suite type is project",
+            "value": 2,
+            "id": "projects"
+        },
+        "files": {
+            "name": "Files",
+            "description": "Suite type is file",
+            "value": 3,
+            "id": "files"
+        },
+        "describes": {
+            "name": "Describes",
+            "description": "Suite type is describe",
+            "value": 1,
+            "id": "describes"
+        },
+        "shards": {
+            "name": "Shards",
+            "description": "Suite type is shard (only in shading mode)",
+            "value": 0,
+            "id": "shards"
+        },
+        "retries": {
+            "name": "Retries",
+            "value": 0,
+            "id": "retries"
+        },
+        "errors": {
+            "name": "Errors",
+            "value": 0,
+            "id": "errors"
+        },
+        "logs": {
+            "name": "Logs",
+            "value": 0,
+            "id": "logs"
+        },
+        "attachments": {
+            "name": "Attachments",
+            "value": 0,
+            "id": "attachments"
+        }
+    },
+    "pieChart": {
+        "ns": "mcr-pie",
+        "width": 360,
+        "height": 150,
+        "margin": 10,
+        "svg": "<svg viewBox=\"0 0 360 150\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"mcr-pie-path-passed\"><path d=\"M75,75 L75,10 A65,65 0 1 1 75,140 A65,65 0 1 1 75,10 z\" fill=\"green\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-flaky\"><path d=\"\" fill=\"orange\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-skipped\"><path d=\"\" fill=\"gray\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-failed\"><path d=\"\" fill=\"#d00\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g transform=\"translate(160 10)\"><g class=\"mcr-pie-legend-passed\" transform=\"translate(0 0)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"green\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Passed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">3</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">100.0%</text></g><g class=\"mcr-pie-legend-flaky\" transform=\"translate(0 32)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"orange\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Flaky</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-skipped\" transform=\"translate(0 64)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"gray\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Skipped</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-failed\" transform=\"translate(0 96)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"#d00\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Failed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g></g></svg>"
+    }
+}
