@@ -8,7 +8,7 @@ import {
 } from "../../data/queries/queries";
 
 test.use({
-  screenshot: "off",
+  screenshot: "on",
 });
 test.describe("GraphQL Operations", async () => {
   test.use({
